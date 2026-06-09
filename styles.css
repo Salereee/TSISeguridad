@@ -415,7 +415,7 @@ h3 {
 .about-content p,
 .store-content p {
   color: var(--muted);
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .services-grid,
