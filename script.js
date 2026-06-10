@@ -65,3 +65,31 @@ const revealObserver = new IntersectionObserver(
 );
 
 revealItems.forEach((item) => revealObserver.observe(item));
+
+const navItems = document.querySelectorAll(".nav-menu a:not(.nav-store):not(.nav-whatsapp)");
+
+function updateActiveNav() {
+  const sections = document.querySelectorAll("section, header");
+
+  navItems.forEach(link => link.classList.remove("active"));
+
+  let current = "";
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop;
+    if (window.scrollY >= sectionTop - 200) {
+      const id = section.getAttribute("id");
+      const href = link => link.getAttribute("href") === `#${id}`;
+      current = id;
+    }
+  });
+
+  if (current) {
+    navItems.forEach(link => {
+      if (link.getAttribute("href") === `#${current}`) {
+        link.classList.add("active");
+      }
+    });
+  }
+}
+
+window.addEventListener("scroll", updateActiveNav, { passive: true });
