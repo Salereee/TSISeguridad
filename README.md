@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="TSI — Tecnología Sistemas Industriales. Vista del sitio en computadora y celular" src="docs/img/portada.jpg" width="100%">
+  <img alt="TSI: Tecnología Sistemas Industriales" src="docs/img/portada.jpg" width="100%">
 </p>
 
 <h1 align="center">TSI</h1>
@@ -15,34 +15,38 @@
 
 ## Sobre el proyecto
 
-Sitio de **TSI — Tecnología Sistemas Industriales**, empresa de Tijuana: seguridad, redes, cableado estructurado, fibra óptica e infraestructura industrial.
+Sitio de **TSI — Tecnología Sistemas Industriales**, empresa de Tijuana especializada en seguridad, redes, cableado estructurado, control de acceso, fibra óptica e infraestructura industrial.
 
-Es un sitio estático: HTML, CSS y JavaScript sin frameworks ni proceso de build.
+Es un sitio estático, hecho con HTML, CSS y JavaScript, sin frameworks ni proceso de build.
 
 ## Secciones
 
 | Sección | Contenido |
 | --- | --- |
 | **Nosotros** | Quiénes somos |
-| **Servicios** | Infraestructura, redes y seguridad |
+| **Servicios** | Cableado estructurado, control de acceso, redes y seguridad |
 | **Portafolio** | Proyectos realizados |
 | **Clientes** | Empresas atendidas |
 | **Contacto** | Formulario y WhatsApp |
 
-## Capturas
+## En computadora
 
 <p align="center">
-  <img alt="TSI en computadora" src="docs/img/escritorio.jpg" width="72%">
-  &nbsp;
-  <img alt="TSI en celular" src="docs/img/movil.jpg" width="22%">
+  <img alt="TSI en computadora" src="docs/img/escritorio.jpg" width="100%">
+</p>
+
+## En celular
+
+<p align="center">
+  <img alt="TSI en celular: tres pantallas" src="docs/img/celular.jpg" width="100%">
 </p>
 
 ## Tecnologías
 
-- HTML5, CSS3 y JavaScript, sin frameworks ni proceso de build.
-- Íconos de [Font Awesome](https://fontawesome.com/) (desde CDN).
-- Tipografía de Google Fonts (Inter).
+- HTML5, CSS3 y JavaScript.
 - Diseño adaptable a celular, tableta y computadora.
+- Íconos de Font Awesome.
+- Tipografía de Google Fonts: Inter.
 
 ## Estructura
 
@@ -60,30 +64,20 @@ TSISeguridad/
 ├── Clientes3.png
 ├── Clientes4.png
 ├── Clientes5.png
-├── docs/                       # Imágenes de este README
+├── docs/                   # Imágenes de este README
 ├── favicon.ico
 ├── FirmaQuienesSomos.jpg
-├── index.html                  # Página principal
+├── index.html              # Página principal
 ├── Logo.png
 ├── Portafolio1.jpg
 ├── Portafolio2.jpg
 ├── Portafolio3.jpg
 ├── Portafolio4.jpeg
 ├── Portafolio5.jpg
-├── script.js                   # Interacciones (menú, animaciones)
-└── styles.css                  # Estilos
+├── script.js               # Interacciones y animaciones
+└── styles.css              # Estilos
 ```
-
-## Correr en local
-
-No necesita instalar nada. Abre `index.html` en el navegador, o sírvelo desde la carpeta del repo:
-
-```bash
-python -m http.server 8000
-```
-
-y entra a <http://localhost:8000>.
 
 ## Créditos
 
-Desarrollado por [@Salereee](https://github.com/Salereee). Logotipos, fotografías y textos del negocio pertenecen a TSI.
+Desarrollado por Salereee. Logotipos, fotografías y textos del negocio pertenecen a TSI.
